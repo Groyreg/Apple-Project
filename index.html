@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Landing on Bootstrap</title>
+
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/mystyle.css">
+
+   
+  </head>
+  <body>
+    <main>
+    <!--Блок header-->
+      <header class="container">
+        <div class="row">
+          <section class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+              <section class="navbar-header">
+                <div class="row">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu" >
+                    <span class="sr-only">Открыть навигацию</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a href="index.html" class="navbar-brand">AppCake</a>
+                </div>
+              </section>
+               <nav class="collapse navbar-collapse" id="responsive-menu">
+                 <ul class="nav navbar-nav">
+                   <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Mac <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">The new MacBook</a></li>
+                        <li><a href="#">MacBook Air</a></li>
+                        <li><a href="#">MacBook Pro</a></li>
+                        <li><a href="#">iMac</a></li>
+                        <li><a href="#">iMac Pro</a></li>
+                        <li><a href="#">Mac Pro</a></li>
+                      </ul>
+                   </li>
+                   <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">iPhone <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">iphone 6</a></li>
+                        <li><a href="#">iphone 6 Plus</a></li>
+                        <li><a href="#">iphone 6S</a></li>
+                        <li><a href="#">iphone 6S Plus</a></li>
+                        <li><a href="#">iphone 7</a></li>
+                        <li><a href="#">iphone 7 Plus</a></li>
+                        <li><a href="#">iphone SE</a></li>
+                      </ul>
+                   </li>
+                   <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">iPad <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">iPad Pro 12.9</a></li>
+                        <li><a href="#">iPad Pro 10.5</a></li>
+                        <li><a href="#">iPad</a></li>
+                        <li><a href="#">iPad Mini 4</a></li>
+                      </ul>
+                   </li>
+                   <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Watch <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Apple Watch Series 1</a></li>
+                        <li><a href="#">Apple Watch Series 2</a></li>
+                      </ul>
+                   </li>
+                   <li><a href="#">TV</a></li>
+                 </ul>
+               </nav>
+            </div>
+          </section>
+        </div>
+      </header>
+    
+      <section id="carousel" class="carousel slide carousel-fluid" data-ride="carousel">
+        <!-- Индикаторы карусели -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel" data-slide-to="1"></li>
+          <li data-target="#carousel" data-slide-to="2"></li>
+          <li data-target="#carousel" data-slide-to="3"></li>
+          <li data-target="#carousel" data-slide-to="4"></li>
+        </ol>
+        <!-- Слайды карусели -->
+        <figure class="carousel-inner">
+          <figure class="item active">
+            <img src="img/mac.jpg" alt="...">
+            <div class="carousel-caption">
+              <figcaption>Линейка персональных компьютеров производства корпорации Apple.</figcaption>
+            </div>
+          </figure>
+          <figure class="item">
+            <img src="img/iphone.jpg" alt="...">
+            <div class="carousel-caption">
+              <figcaption>В iPhone 7 все важнейшие аспекты iPhone значительно улучшены. Это принципиально новая система камер для фото- и видеосъёмки. Максимально мощный и экономичный аккумулятор iPhone. Стереодинамики с богатым звучанием. Самый яркий и разноцветный из всех дисплеев iPhone. Защита от брызг и воды. И его внешние данные впечатляют не менее, чем внутренние возможности. Всё это iPhone 7.</figcaption>
+            </div>
+          </figure>
+          <figure class="item">
+            <img src="img/ipad.jpg" alt="...">
+            <div class="carousel-caption">
+              <figcaption>Какая бы задача перед вами ни стояла, iPad готов за неё взяться. Он мощнее многих ноутбуков и при этом гораздо удобнее. Дисплей Retina получил впечатляющие возможности и стал потрясающе быстро отзываться на касания. А ещё на устройстве установлена iOS — самая передовая мобильная операционная система в мире. У iPad есть всё, что вам нужно от современного компьютера. И даже больше.</figcaption>
+            </div>
+          </figure>
+          <figure class="item">
+            <img src="img/watch.jpg" alt="...">
+            <div class="carousel-caption">
+              <figcaption>Отслеживайте свою физическую активность. Измеряйте интенсивность тренировок. Наблюдайте за показателями здоровья. Оставайтесь на связи с близкими. Следите за важной для вас информацией. Всё это можно делать очень быстро, ведь Apple Watch оснащены мощным двухъядерным процессором.</figcaption>
+            </div>
+          </figure>
+          <figure class="item">
+            <img src="img/tv.jpg" alt="...">
+            <div class="carousel-caption">
+              <figcaption>Телевидение ещё никогда не было таким увлекательным как сегодня. Телепередачи великолепны. Выбор практически безграничен. С появлением приложений наши привычки изменились. Сегодня мы сами решаем, что, где и когда нам смотреть. Но освободившись от жёстких рамок телепрограммы, мы чуть не упустили ту беззаботность, с которой смотрели телевизор в детстве. С Apple TV всё снова стало просто. Теперь вы можете полностью погрузиться в мир видеоприложений и с лёгкостью найти там то, что интересно именно вам. Apple TV — это всё, что нужно современному телезрителю.</figcaption>
+            </div>
+          </figure>
+        </figure>
+        <!-- Навигация карусели (следующий или предыдущий слайд) -->
+        <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </section>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
