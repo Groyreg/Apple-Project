@@ -1,3 +1,5 @@
+
+
 .carousel-caption {
 	background:rgba(255,255,255,0.6);
 	border-radius: 10px;
@@ -12,3 +14,41 @@
     text-align: center;
     
 }
+.mac {
+	background-color: #949494;
+	height: 600px;
+}
+#mac-series {
+	margin-top: 100px;
+}
+
+.equal, .equal > div[class*='col-'] {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex:1 0 auto;
+}
+.about-mac {
+	margin-top: 100px;
+	font-size: 12pt;
+ 	color: white;
+ 	text-align: justify;
+}
+.about-mac-mobile {
+	font-size: 12pt;
+ 	color: white;
+ 	text-align: justify;
+}
+.nav-mac {
+	margin-top: 150px;
+}
+.nav-mac > li > a {
+	font-size: 14pt;
+ 	color: white;
+ }
+ .nav-mac-mobile > li > a {
+	font-size: 14pt;
+ 	color: white;
+ }

@@ -17,7 +17,6 @@
     <main>
     <!--Блок header-->
       <header class="container">
-        <div class="row">
           <section class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
               <section class="navbar-header">
@@ -33,7 +32,7 @@
               </section>
                <nav class="collapse navbar-collapse" id="responsive-menu">
                  <ul class="nav navbar-nav">
-                   <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Mac <b class="caret"></b></a>
+                   <li class="dropdown-toggle"><a href="" data-toggle="dropdown">Mac<b class="caret"></b></a>
                       <ul class="dropdown-menu">
                         <li><a href="#">The new MacBook</a></li>
                         <li><a href="#">MacBook Air</a></li>
@@ -73,7 +72,6 @@
                </nav>
             </div>
           </section>
-        </div>
       </header>
     
       <section id="carousel" class="carousel slide carousel-fluid" data-ride="carousel">
@@ -125,6 +123,56 @@
         <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
           <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
+      </section>
+      <section class="mac container-fluid" id="part_mac">
+        <div class="without-mobile-mac row equal hidden-xs hidden-sm">
+          <figure class="mac_img col-lg-7 col-md-7 col-sm-6">
+            <img id="mac-series" class="img-responsive" width="100%" src="img/part_mac.png" alt="mac-series">
+          </figure>
+          <article class="mac-description col-lg-5 col-md-5 col-sm-6">
+            <p class="about-mac">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est ipsum, vero ducimus ab, doloremque impedit incidunt. Laboriosam sed, minus, laborum quis, magnam error vero velit, ipsum eum dolor praesentium alias! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam quis hic iste, ut labore ratione nemo laborum ducimus deserunt atque recusandae esse vero quidem perspiciatis, soluta accusantium iure. Accusantium!</p>
+            <div class="bottom-section row">
+              <div class="left-part col-lg-6 col-md-6 col-sm-6">
+                <nav class="collapse navbar-collapse">
+                  <ul class="nav-mac nav">
+                    <li><a href="#">The new MacBook</a></li>
+                    <li><a href="#">MacBook Air</a></li>
+                    <li><a href="#">MacBook Pro</a></li>
+                  </ul>
+              </div>
+              <div class="right-part col-lg-6 col-md-6 col-sm-6">
+                <nav class="collapse navbar-collapse">
+                 <ul class="nav-mac nav">
+                  <li><a href="#">iMac</a></li>
+                  <li><a href="#">iMac Pro</a></li>
+                  <li><a href="#">Mac Pro</a></li>
+                 </ul>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="for-mobile-mac visible-xs visible-sm">
+          <img src="img/part_mac.png" width="90%" alt="mac-series">
+          <p class="about-mac">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est ipsum, vero ducimus ab, doloremque impedit incidunt. Laboriosam sed, minus, laborum quis, magnam error vero velit, ipsum eum dolor praesentium alias! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam quis hic iste, ut labore ratione nemo laborum ducimus deserunt atque recusandae esse vero quidem perspiciatis, soluta accusantium iure. Accusantium!</p>
+          <div class="mobile-part">
+                <nav>
+                <div class="col-xs-7">
+                  <ul class="nav-mac-mobile nav">
+                    <li><a href="#">The new MacBook</a></li>
+                    <li><a href="#">MacBook Air</a></li>
+                    <li><a href="#">MacBook Pro</a></li>
+                  </ul>
+                </div>
+                <div class="col-xs-5">
+                  <ul class="nav-mac-mobile nav">
+                    <li><a href="#">iMac</a></li>
+                    <li><a href="#">iMac Pro</a></li>
+                    <li><a href="#">Mac Pro</a></li>
+                  </ul>
+                </div>
+                </nav>
+              </div>
+        </div>
       </section>
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
