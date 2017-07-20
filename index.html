@@ -10,8 +10,6 @@
 
     <link href="css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="css/mystyle.css">
-
-
    
   </head>
   <body>
@@ -32,7 +30,7 @@
                 </div>
               </section>
                <nav class="collapse navbar-collapse" id="responsive-menu">
-                 <ul class="nav navbar-nav">
+                 <ul class="nav navbar-nav menu">
                    <li><a href="#part_mac">Mac</a></li>
                    <li><a href="#part_iphone">iPhone</a></li>
                    <li><a href="#part_iPad">iPad</a></li>
@@ -260,8 +258,30 @@
         </div>
       </section>
     </main>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript">
+        function Anchor(active){
+            if(active==true){
+                var hash=window.location.hash;
+                if(hash){
+                    $(".menu a").removeClass("active");
+                    $("a[href="+hash+"]").addClass("active");
+                }
+            }
+            function AnchorHref(){
+                var anchor=$(this);
+                if(hash){
+                    $(".menu a").removeClass("active");
+                    anchor.addClass("active");
+                }
+                $("html, body").animate({
+                    scrollTop: $(anchor.attr("href")).offset().top
+                }, 1500);
+            }
+            $("a[href*=#]").click(AnchorHref);
+        }
+        $(Anchor(false));
+    </script>
     <script src="js/bootstrap.js"></script>
-    <script src="js/myscript.js"></script>
   </body>
 </html>
