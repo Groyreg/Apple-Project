@@ -1,12 +1,10 @@
-.equal, .equal > div[class*='col-'] {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    flex:1 0 auto;
+.menu {
+	float: right;
 }
-/*блок слайдера*/
+.logo {
+	margin-left: 10px;
+}
+/* Блок слайдера */
 .carousel-caption {
 	background:rgba(255,255,255,0.6);
 	border-radius: 10px;
@@ -20,99 +18,203 @@
     color: black;
     text-align: center;
 }
-/*блок о маках*/
+/* Блок о Mac */
 .mac {
 	background-color: #dbdbdb;
-	height: 700px;
+	height: 820px;
 }
-#mac-series {
-	margin-top: 100px;
+#mac-img-desktop {
+	 display: block;
+ 	 margin: 0 auto;
+ 	 margin-top: 90px;
 }
-
-.about-mac {
-	margin-top: 100px;
-	font-size: 12pt;
- 	color: black;
- 	text-align: justify;
-}
-.about-mac-mobile {
-	font-size: 12pt;
- 	color: black;
- 	text-align: justify;
-}
-.nav-mac {
-	margin-top: 150px;
-}
-.nav-mac > li > a {
-	font-size: 14pt;
- 	color: black;
- }
- .nav-mac-mobile > li > a {
-	font-size: 14pt;
- 	color: black;
- }
- /*блок о iphone*/
-.iphone {
-	background-color: #ffffff;
-	height: 850px;
-}
-
-.about-iphone {
-	margin-top: 100px;
-	font-size: 12pt;
- 	color: black;
- 	text-align: justify;
-}
-.about-iphone-mobile {
-	font-size: 12pt;
- 	color: black;
- 	text-align: justify;
-}
-.nav-iphone {
-	margin-top: 150px;
-}
-.nav-iphone > li > a {
-	font-size: 14pt;
- 	color: black;
- }
- .nav-iphone-mobile > li > a {
-	font-size: 14pt;
- 	color: black;
- }
- #part_iphone_mobile {
- 	 display: block;
+#mac-mobile-part {
+	 display: block;
  	 margin: 0 auto;
  	 margin-top: 30px;
- }
+}
+.mac-description-desktop {
+	margin-top: 110px;
+}
+.mac-description-desktop p {
+	width: 95%;
+	text-align: justify;
+	font-size: 12pt;
+}
+.mac-btn-desktop {
+	float: right;
+	margin-right: 30px;
+}
+.mac-description-mobile {
+	margin-top: 30px;
+}
+.mac-description-mobile p {
+	margin-left: 5px;
+	width: 95%;
+	text-align: justify;
+	font-size: 12pt;
+}
 
-/*блок о iPad*/
-.iPad {
+ /* Блок о iPhone */
+.iphone {
+	background-color: #ffffff;
+	height: 820px;
+}
+#iphone-img-desktop {
+	 display: block;
+ 	 margin: 0 auto;
+ 	 margin-top: 30px;
+}
+#iphone-mobile-part {
+	 display: block;
+ 	 margin: 0 auto;
+ 	 margin-top: 30px;
+}
+
+.iphone-description-desktop {
+	margin-top: 110px;
+}
+.iphone-description-desktop p {
+	width: 95%;
+	margin-left: 30px;
+	text-align: justify;
+	font-size: 12pt;
+}
+.iphone-btn-desktop {
+	float: left;
+	margin-left: 30px;
+}
+.iphone-description-mobile {
+	margin-top: 30px;
+}
+.iphone-description-mobile p {
+	margin-left: 5px;
+	width: 95%;
+	text-align: justify;
+	font-size: 12pt;
+}
+
+/* Блок о iPad */
+.ipad {
 	background-color: #dbdbdb;
-	height: 700px;
+	height: 800px;
 }
-#iPad-series {
-	margin-top: 50px;
+#ipad-img-desktop {
+	 display: block;
+ 	 margin: 0 auto;
+ 	 margin-top: 30px;
+}
+#ipad-mobile-part {
+	 display: block;
+ 	 margin: 0 auto;
+ 	 margin-top: 30px;
 }
 
-.about-iPad {
-	margin-top: 100px;
-	font-size: 12pt;
- 	color: black;
- 	text-align: justify;
+.ipad-description-desktop {
+	margin-top: 110px;
 }
-.about-iPad-mobile {
+.ipad-description-desktop p {
+	width: 95%;
+	text-align: justify;
 	font-size: 12pt;
- 	color: black;
- 	text-align: justify;
 }
-.nav-iPad {
+.ipad-btn-desktop {
+	float: right;
+	margin-right: 30px;
+}
+.ipad-description-mobile {
+	margin-top: -10px;
+}
+.ipad-description-mobile p {
+	margin-left: 5px;
+	width: 95%;
+	text-align: justify;
+	font-size: 12pt;
+}
+
+/* Блок о Watch */
+
+.watch {
+	background-color: #ffffff;
+	height: 820px;
+}
+#watch-img-desktop {
+	 display: block;
+ 	 margin: 0 auto;
+ 	 margin-top: 150px;
+}
+#watch-mobile-part {
+	 display: block;
+ 	 margin: 0 auto;
+ 	 margin-top: 50px;
+}
+
+.watch-description-desktop {
 	margin-top: 150px;
 }
-.nav-iPad > li > a {
-	font-size: 14pt;
- 	color: black;
+.watch-description-desktop p {
+	width: 95%;
+	margin-left: 30px;
+	text-align: justify;
+	font-size: 12pt;
+}
+.watch-btn-desktop {
+	float: left;
+	margin-left: 30px;
+}
+.watch-description-mobile {
+	margin-top: 30px;
+}
+.watch-description-mobile p {
+	width: 95%;
+	text-align: justify;
+	font-size: 12pt;
+}
+
+ /* Блок о TV */
+
+.tv {
+	background-color: #dbdbdb;
+	height: 875px;
+}
+#tv-img-desktop {
+	 display: block;
+ 	 margin: 0 auto;
+ 	 margin-top: 100px;
+}
+#tv-mobile-part {
+	 display: block;
+ 	 margin: 0 auto;
+ 	 margin-top: 50px;
+}
+
+.tv-description-desktop {
+	margin-top: 110px;
+}
+.tv-description-desktop p {
+	width: 95%;
+	text-align: justify;
+	font-size: 12pt;
+}
+.tv-btn-desktop {
+	float: right;
+	margin-right: 30px;
+}
+.tv-description-mobile {
+	margin-top: 30px;
+}
+.tv-description-mobile p {
+	width: 95%;
+	text-align: justify;
+	font-size: 12pt;
  }
- .nav-iPad-mobile > li > a {
-	font-size: 14pt;
- 	color: black;
+
+ .desktop-button-tv {
+ 	float: right;
+ 	margin-right: 15px;
  }
+
+ .mobile-button-tv {
+ 	margin-top: 50px;
+ }
+ 

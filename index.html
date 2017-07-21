@@ -10,11 +10,13 @@
 
     <link href="css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="css/mystyle.css">
-   
+    <link rel="stylesheet" href="css/font-awesome.min.css">
   </head>
   <body>
     <main>
+
     <!--Блок header-->
+
       <header class="container">
           <section class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
@@ -26,21 +28,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                  <a href="index.html" class="navbar-brand">AppCake</a>
+                  <a href="index.html" class="navbar-brand">AppCake<i class="logo fa fa-apple" aria-hidden="true"></i></a>
                 </div>
               </section>
                <nav class="collapse navbar-collapse" id="responsive-menu">
                  <ul class="nav navbar-nav menu">
-                   <li><a href="#part_mac">Mac</a></li>
-                   <li><a href="#part_iphone">iPhone</a></li>
-                   <li><a href="#part_iPad">iPad</a></li>
-                   <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Watch <b class="caret"></b></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Apple Watch Series 1</a></li>
-                        <li><a href="#">Apple Watch Series 2</a></li>
-                      </ul>
-                   </li>
-                   <li><a href="#">TV</a></li>
+                   <li><a href="#part-mac">Mac</a></li>
+                   <li><a href="#part-iphone">iPhone</a></li>
+                   <li><a href="#part-ipad">iPad</a></li>
+                   <li><a href="#part-watch">Watch</a></li>
+                   <li><a href="#part-tv">TV</a></li> 
                  </ul>
                </nav>
             </div>
@@ -48,7 +45,9 @@
       </header>
     
       <section id="carousel" class="carousel slide carousel-fluid" data-ride="carousel">
+
         <!-- Индикаторы карусели -->
+
         <ol class="carousel-indicators">
           <li data-target="#carousel" data-slide-to="0" class="active"></li>
           <li data-target="#carousel" data-slide-to="1"></li>
@@ -56,40 +55,29 @@
           <li data-target="#carousel" data-slide-to="3"></li>
           <li data-target="#carousel" data-slide-to="4"></li>
         </ol>
+
         <!-- Слайды карусели -->
+
         <figure class="carousel-inner">
           <figure class="item active">
             <img src="img/mac.jpg" alt="...">
-            <div class="carousel-caption">
-              <figcaption>Линейка персональных компьютеров производства корпорации Apple.</figcaption>
-            </div>
           </figure>
           <figure class="item">
             <img src="img/iphone.jpg" alt="...">
-            <div class="carousel-caption">
-              <figcaption>В iPhone 7 все важнейшие аспекты iPhone значительно улучшены. Это принципиально новая система камер для фото- и видеосъёмки. Максимально мощный и экономичный аккумулятор iPhone. Стереодинамики с богатым звучанием. Самый яркий и разноцветный из всех дисплеев iPhone. Защита от брызг и воды. И его внешние данные впечатляют не менее, чем внутренние возможности. Всё это iPhone 7.</figcaption>
-            </div>
           </figure>
           <figure class="item">
             <img src="img/ipad.jpg" alt="...">
-            <div class="carousel-caption">
-              <figcaption>Какая бы задача перед вами ни стояла, iPad готов за неё взяться. Он мощнее многих ноутбуков и при этом гораздо удобнее. Дисплей Retina получил впечатляющие возможности и стал потрясающе быстро отзываться на касания. А ещё на устройстве установлена iOS — самая передовая мобильная операционная система в мире. У iPad есть всё, что вам нужно от современного компьютера. И даже больше.</figcaption>
-            </div>
           </figure>
           <figure class="item">
             <img src="img/watch.jpg" alt="...">
-            <div class="carousel-caption">
-              <figcaption>Отслеживайте свою физическую активность. Измеряйте интенсивность тренировок. Наблюдайте за показателями здоровья. Оставайтесь на связи с близкими. Следите за важной для вас информацией. Всё это можно делать очень быстро, ведь Apple Watch оснащены мощным двухъядерным процессором.</figcaption>
-            </div>
           </figure>
           <figure class="item">
             <img src="img/tv.jpg" alt="...">
-            <div class="carousel-caption">
-              <figcaption>Телевидение ещё никогда не было таким увлекательным как сегодня. Телепередачи великолепны. Выбор практически безграничен. С появлением приложений наши привычки изменились. Сегодня мы сами решаем, что, где и когда нам смотреть. Но освободившись от жёстких рамок телепрограммы, мы чуть не упустили ту беззаботность, с которой смотрели телевизор в детстве. С Apple TV всё снова стало просто. Теперь вы можете полностью погрузиться в мир видеоприложений и с лёгкостью найти там то, что интересно именно вам. Apple TV — это всё, что нужно современному телезрителю.</figcaption>
-            </div>
           </figure>
         </figure>
+
         <!-- Навигация карусели (следующий или предыдущий слайд) -->
+
         <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
           <span class="glyphicon glyphicon-chevron-left"></span>
         </a>
@@ -97,167 +85,153 @@
           <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
       </section>
-      <!-- <Блок о Маках -->
-      <section class="mac container-fluid" id="part_mac">
-        <div class="without-mobile-mac row equal hidden-xs hidden-sm">
-          <figure class="mac_img col-lg-7 col-md-7 col-sm-6">
-            <img id="mac-series" class="img-responsive" width="100%" src="img/part_mac.png" alt="mac-series">
+
+      <!-- <Блок о Mac -->
+
+      <section class="mac container-fluid" id="part-mac">
+        <div class="mac-desktop-ver row hidden-xs hidden-sm">
+          <figure class="mac-img col-lg-7 col-md-7 col-sm-6">
+            <img id="mac-img-desktop" class="img-responsive" width="100%" src="img/part-mac.png" alt="mac-series">
           </figure>
-          <article class="mac-description col-lg-5 col-md-5 col-sm-6">
-            <p class="about-mac hidden-xs hidden-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est ipsum, vero ducimus ab, doloremque impedit incidunt. Laboriosam sed, minus, laborum quis, magnam error vero velit, ipsum eum dolor praesentium alias! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam quis hic iste, ut labore ratione nemo laborum ducimus deserunt atque recusandae esse vero quidem perspiciatis, soluta accusantium iure. Accusantium!</p>
-            <div class="bottom-section row">
-              <div class="left-part col-lg-6 col-md-6 col-sm-6">
-                <nav class="collapse navbar-collapse">
-                  <ul class="nav-mac nav">
-                    <li><a href="#">The new MacBook</a></li>
-                    <li><a href="#">MacBook Air</a></li>
-                    <li><a href="#">MacBook Pro</a></li>
-                  </ul>
-              </div>
-              <div class="right-part col-lg-6 col-md-6 col-sm-6">
-                <nav class="collapse navbar-collapse">
-                 <ul class="nav-mac nav">
-                  <li><a href="#">iMac</a></li>
-                  <li><a href="#">iMac Pro</a></li>
-                  <li><a href="#">Mac Pro</a></li>
-                 </ul>
-              </div>
-            </div>
+          <article class="mac-description-desktop col-lg-5 col-md-5 col-sm-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi qui repudiandae ex, beatae quaerat aliquid rem necessitatibus at doloremque dolores, illum esse. Dolores, molestias itaque vitae quo ex. Sint, velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, officiis, nostrum est hic suscipit facere ut, reiciendis sed eaque vel dolorum debitis earum recusandae. At nobis reiciendis nulla adipisci voluptates.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi qui repudiandae ex, beatae quaerat aliquid rem necessitatibus at doloremque dolores, illum esse. Dolores, molestias itaque vitae quo ex. Sint, velit.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi qui repudiandae ex, beatae quaerat aliquid rem necessitatibus at doloremque dolores, illum esse. Dolores, molestias itaque vitae quo ex. Sint, velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quibusdam officia maiores voluptas commodi nihil, quo veniam.</p>
+            <div class="button-section">
+              <a href="#" class="mac-btn-desktop btn btn-primary btn-lg" type="submit">подробнее</a>
+           </div>
           </article>
         </div>
-        <div class="for-mobile-mac visible-xs visible-sm">
-          <img src="img/part_mac.png" width="90%" alt="mac-series">
-          <p class="about-mac-mobile visible-sm visible-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est ipsum, vero ducimus ab, doloremque impedit incidunt. Laboriosam sed, minus, laborum quis, magnam error vero velit, ipsum eum dolor praesentium alias! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam quis hic iste, ut labore ratione nemo laborum ducimus deserunt atque recusandae esse vero quidem perspiciatis, soluta accusantium iure. Accusantium!</p>
-          <div class="mobile-part">
-                <nav>
-                <div class="col-xs-7">
-                  <ul class="nav-mac-mobile nav">
-                    <li><a href="#">The new MacBook</a></li>
-                    <li><a href="#">MacBook Air</a></li>
-                    <li><a href="#">MacBook Pro</a></li>
-                  </ul>
-                </div>
-                <div class="col-xs-5">
-                  <ul class="nav-mac-mobile nav">
-                    <li><a href="#">iMac</a></li>
-                    <li><a href="#">iMac Pro</a></li>
-                    <li><a href="#">Mac Pro</a></li>
-                  </ul>
-                </div>
-                </nav>
-              </div>
+        <div class="mac-mobile-ver visible-xs visible-sm">
+          <img id="mac-mobile-part" src="img/part-mac.png" width="90%" alt="mac-series">
+          <article class="mac-description-mobile">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi qui repudiandae ex, beatae quaerat aliquid rem necessitatibus at doloremque dolores, illum esse. Dolores, molestias itaque vitae quo ex. Sint, velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, officiis, nostrum est hic suscipit facere ut, reiciendis sed eaque vel dolorum debitis earum recusandae. At nobis reiciendis nulla adipisci voluptates.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi qui repudiandae ex, beatae quaerat aliquid rem necessitatibus at doloremque dolores, illum esse. Dolores, molestias itaque vitae quo ex. Sint, velit.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi qui repudiandae ex, beatae quaerat aliquid rem necessitatibus at doloremque dolores, illum esse. Dolores, molestias itaque vitae quo ex. Sint, velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quibusdam officia maiores voluptas commodi nihil, quo veniam.</p>
+            <div class="button-section">
+              <a href="#" class="mac-btn-mobile btn btn-primary btn-lg btn-block" type="submit">подробнее</a>
+           </div>
+          </article>
         </div>
       </section>
+
       <!-- Блок о iPhone -->
-      <section class="iphone container-fluid" id="part_iphone">
-        <div class="without-mobile-iphne row equal hidden-xs hidden-sm">
-          <figure class="iphone_img col-lg-7 col-md-7 col-sm-6">
-            <img id="part_iphone_mobile" class="responsive" width="40%" src="img/part_iphone.png" alt="iphone-series">
-          </figure>
-          <article class="iphone-description col-lg-5 col-md-5 col-sm-6">
-            <p class="about-iphone hidden-xs hidden-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est ipsum, vero ducimus ab, doloremque impedit incidunt. Laboriosam sed, minus, laborum quis, magnam error vero velit, ipsum eum dolor praesentium alias! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam quis hic iste, ut labore ratione nemo laborum ducimus deserunt atque recusandae esse vero quidem perspiciatis, soluta accusantium iure. Accusantium!</p>
-            <div class="bottom-section row">
-              <div class="left-part col-lg-4 col-md-4 col-sm-4">
-                <nav class="collapse navbar-collapse">
-                  <ul class="nav-iphone nav">
-                    <li><a href="#">iphone 6</a></li>
-                    <li><a href="#">iphone 6 Plus</a></li>
-                  </ul>
-              </div>
-              <div class="middle-part col-lg-4 col-md-4 col-sm-4">
-                <nav class="collapse navbar-collapse">
-                  <ul class="nav-iphone nav">
-                    <li><a href="#">iphone 6S</a></li>
-                    <li><a href="#">iphone 6S Plus</a></li>
-                    <li><a href="#">iphone SE</a></li>
-                  </ul>
-              </div>
-              <div class="right-part col-lg-4 col-md-4 col-sm-4">
-                <nav class="collapse navbar-collapse">
-                 <ul class="nav-iphone nav">
-                   <li><a href="#">iphone 7</a></li>
-                   <li><a href="#">iphone 7 Plus</a></li>
-                 </ul>
-              </div>
-            </div>
+
+      <section class="iphone container-fluid" id="part-iphone">
+        <div class="iphone-desktop-ver row hidden-xs hidden-sm">
+          <article class="iphone-description-desktop col-lg-5 col-md-5 col-sm-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi qui repudiandae ex, beatae quaerat aliquid rem necessitatibus at doloremque dolores, illum esse. Dolores, molestias itaque vitae quo ex. Sint, velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, officiis, nostrum est hic suscipit facere ut, reiciendis sed eaque vel dolorum debitis earum recusandae. At nobis reiciendis nulla adipisci voluptates.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi qui repudiandae ex, beatae quaerat aliquid rem necessitatibus at doloremque dolores, illum esse. Dolores, molestias itaque vitae quo ex. Sint, velit.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi qui repudiandae ex, beatae quaerat aliquid rem necessitatibus at doloremque dolores, illum esse. Dolores, molestias itaque vitae quo ex. Sint, velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quibusdam officia maiores voluptas commodi nihil, quo veniam.</p>
+            <div class="button-section">
+              <a href="#" class="iphone-btn-desktop btn btn-primary btn-lg" type="submit">подробнее</a>
+           </div>
           </article>
+          <figure class="iphone-img col-lg-7 col-md-7 col-sm-6">
+            <img id="iphone-img-desktop" class="img-responsive" width="40%" src="img/part-iphone.png" alt="iphone-series">
+          </figure>
         </div>
-        <div class="for-mobile-iphone visible-xs visible-sm">
-          <img id="part_iphone_mobile" src="img/part_iphone.png" class="responsive" width="40%" alt="iphone-series"> 
-          <p class="about-iphone-mobile visible-sm visible-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est ipsum, vero ducimus ab, doloremque impedit incidunt. Laboriosam sed, minus, laborum quis, magnam error vero velit, ipsum eum dolor praesentium alias! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam quis hic iste, ut labore ratione nemo laborum ducimus deserunt atque recusandae esse vero quidem perspiciatis, soluta accusantium iure. Accusantium!</p>
-          <div class="mobile-part">
-                <nav>
-                <div class="col-xs-4">
-                  <ul class="nav-iphone-mobile nav">
-                    <li><a href="#">iphone 6</a></li>
-                    <li><a href="#">iphone 6 Plus</a></li>
-                  </ul>
-                </div>
-                <div class="col-xs-4">
-                  <ul class="nav-iphone-mobile nav">
-                    <li><a href="#">iphone 6S</a></li>
-                    <li><a href="#">iphone 6S Plus</a></li>
-                    <li><a href="#">iphone SE</a></li>
-                  </ul>
-                </div>
-                <div class="col-xs-4">
-                  <ul class="nav-iphone-mobile nav">
-                   <li><a href="#">iphone 7</a></li>
-                   <li><a href="#">iphone 7 Plus</a></li>
-                  </ul>
-                </div>
-                </nav>
-              </div>
+        <div class="iphone-mobile-ver visible-xs visible-sm">
+          <img id="iphone-mobile-part" src="img/part-iphone.png" width="30%" alt="iphone-series">
+          <article class="iphone-description-mobile">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi qui repudiandae ex, beatae quaerat aliquid rem necessitatibus at doloremque dolores, illum esse. Dolores, molestias itaque vitae quo ex. Sint, velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, officiis, nostrum est hic suscipit facere ut, reiciendis sed eaque vel dolorum debitis earum recusandae. At nobis reiciendis nulla adipisci voluptates.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi qui repudiandae ex, beatae quaerat aliquid rem necessitatibus at doloremque dolores, illum esse. Dolores, molestias itaque vitae quo ex. Sint, velit.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi qui repudiandae ex, beatae quaerat aliquid rem necessitatibus at doloremque dolores, illum esse. Dolores, molestias itaque vitae quo ex. Sint, velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quibusdam officia maiores voluptas commodi nihil, quo veniam.</p>
+            <div class="button-section">
+              <a href="#" class="iphone-btn-mobile btn btn-primary btn-lg btn-block" type="submit">подробнее</a>
+           </div>
+          </article>
         </div>
       </section>
+
       <!-- Блок о iPad -->
-      <section class="iPad container-fluid" id="part_iPad">
-        <div class="without-mobile-iPad row equal hidden-xs hidden-sm">
-          <figure class="iPad_img col-lg-7 col-md-7 col-sm-6">
-            <img id="iPad-series" class="img-responsive" width="100%" src="img/part_iPad.png" alt="iPad-series">
+
+      <section class="ipad container-fluid" id="part-ipad">
+        <div class="ipad-desktop-ver row hidden-xs hidden-sm">
+          <figure class="ipad-img col-lg-7 col-md-7 col-sm-6">
+            <img id="ipad-img-desktop" class="img-responsive" width="100%" src="img/part-ipad.png" alt="ipad-series">
           </figure>
-          <article class="iPad-description col-lg-5 col-md-5 col-sm-6">
-            <p class="about-iPad hidden-xs hidden-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est ipsum, vero ducimus ab, doloremque impedit incidunt. Laboriosam sed, minus, laborum quis, magnam error vero velit, ipsum eum dolor praesentium alias! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam quis hic iste, ut labore ratione nemo laborum ducimus deserunt atque recusandae esse vero quidem perspiciatis, soluta accusantium iure. Accusantium!</p>
-            <div class="bottom-section row">
-              <div class="left-part col-lg-6 col-md-6 col-sm-6">
-                <nav class="collapse navbar-collapse">
-                  <ul class="nav-iPad nav">
-                   <li><a href="#">iPad Pro 12.9</a></li>
-                   <li><a href="#">iPad Pro 10.5</a></li>
-                  </ul>
-              </div>
-              <div class="right-part col-lg-6 col-md-6 col-sm-6">
-                <nav class="collapse navbar-collapse">
-                 <ul class="nav-iPad nav">
-                  <li><a href="#">iPad</a></li>
-                  <li><a href="#">iPad Mini 4</a></li>
-                 </ul>
-              </div>
-            </div>
+          <article class="ipad-description-desktop col-lg-5 col-md-5 col-sm-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi qui repudiandae ex, beatae quaerat aliquid rem necessitatibus at doloremque dolores, illum esse. Dolores, molestias itaque vitae quo ex. Sint, velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, officiis, nostrum est hic suscipit facere ut, reiciendis sed eaque vel dolorum debitis earum recusandae. At nobis reiciendis nulla adipisci voluptates.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi qui repudiandae ex, beatae quaerat aliquid rem necessitatibus at doloremque dolores, illum esse. Dolores, molestias itaque vitae quo ex. Sint, velit.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi qui repudiandae ex, beatae quaerat aliquid rem necessitatibus at doloremque dolores, illum esse. Dolores, molestias itaque vitae quo ex. Sint, velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quibusdam officia maiores voluptas commodi nihil, quo veniam.</p>
+            <div class="button-section">
+              <a href="#" class="ipad-btn-desktop btn btn-primary btn-lg" type="submit">подробнее</a>
+           </div>
           </article>
         </div>
-        <div class="for-mobile-iPad visible-xs visible-sm">
-          <img src="img/part_iPad.png" width="90%" alt="iPad-series">
-          <p class="about-iPad-mobile visible-sm visible-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est ipsum, vero ducimus ab, doloremque impedit incidunt. Laboriosam sed, minus, laborum quis, magnam error vero velit, ipsum eum dolor praesentium alias! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam quis hic iste, ut labore ratione nemo laborum ducimus deserunt atque recusandae esse vero quidem perspiciatis, soluta accusantium iure. Accusantium!</p>
-          <div class="mobile-part">
-                <nav>
-                <div class="col-xs-7">
-                  <ul class="nav-iPad-mobile nav">
-                   <li><a href="#">iPad Pro 12.9</a></li>
-                   <li><a href="#">iPad Pro 10.5</a></li>
-                  </ul>
-                </div>
-                <div class="col-xs-5">
-                  <ul class="nav-iPad-mobile nav">
-                    <li><a href="#">iPad</a></li>
-                    <li><a href="#">iPad Mini 4</a></li>
-                  </ul>
-                </div>
-                </nav>
-              </div>
+        <div class="ipad-mobile-ver visible-xs visible-sm">
+          <img id="ipad-mobile-part" src="img/part-ipad.png" width="63%" alt="ipad-series">
+          <article class="ipad-description-mobile">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi qui repudiandae ex, beatae quaerat aliquid rem necessitatibus at doloremque dolores, illum esse. Dolores, molestias itaque vitae quo ex. Sint, velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, officiis, nostrum est hic suscipit facere ut, reiciendis sed eaque vel dolorum debitis earum recusandae. At nobis reiciendis nulla adipisci voluptates.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi qui repudiandae ex, beatae quaerat aliquid rem necessitatibus at doloremque dolores, illum esse. Dolores, molestias itaque vitae quo ex. Sint, velit.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi qui repudiandae ex, beatae quaerat aliquid rem necessitatibus at doloremque dolores, illum esse. Dolores, molestias itaque vitae quo ex. Sint, velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quibusdam officia maiores voluptas commodi nihil, quo veniam.</p>
+            <div class="button-section">
+              <a href="#" class="ipad-btn-mobile btn btn-primary btn-lg btn-block" type="submit">подробнее</a>
+           </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Блок о Watch -->
+
+      <section class="watch container-fluid" id="part-watch">
+        <div class="watch-desktop-ver row hidden-xs hidden-sm">
+          <article class="watch-description-desktop col-lg-5 col-md-5 col-sm-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi qui repudiandae ex, beatae quaerat aliquid rem necessitatibus at doloremque dolores, illum esse. Dolores, molestias itaque vitae quo ex. Sint, velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, officiis, nostrum est hic suscipit facere ut, reiciendis sed eaque vel dolorum debitis earum recusandae. At nobis reiciendis nulla adipisci voluptates.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi qui repudiandae ex, beatae quaerat aliquid rem necessitatibus at doloremque dolores, illum esse. Dolores, molestias itaque vitae quo ex. Sint, velit.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi qui repudiandae ex, beatae quaerat aliquid rem necessitatibus at doloremque dolores, illum esse. Dolores, molestias itaque vitae quo ex. Sint, velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quibusdam officia maiores voluptas commodi nihil, quo veniam.</p>
+            <div class="button-section">
+              <a href="#" class="watch-btn-desktop btn btn-primary btn-lg" type="submit">подробнее</a>
+           </div>
+          </article>
+          <figure class="watch-img col-lg-7 col-md-7 col-sm-6">
+            <img id="watch-img-desktop" class="img-responsive" width="100%" src="img/part-watch.png" alt="watch-series">
+          </figure>
+        </div>
+        <div class="iphone-mobile-ver visible-xs visible-sm">
+          <img id="watch-mobile-part" src="img/part-watch.png" width=80%" alt="watch-series">
+          <article class="watch-description-mobile">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi qui repudiandae ex, beatae quaerat aliquid rem necessitatibus at doloremque dolores, illum esse. Dolores, molestias itaque vitae quo ex. Sint, velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, officiis, nostrum est hic suscipit facere ut, reiciendis sed eaque vel dolorum debitis earum recusandae. At nobis reiciendis nulla adipisci voluptates.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi qui repudiandae ex, beatae quaerat aliquid rem necessitatibus at doloremque dolores, illum esse. Dolores, molestias itaque vitae quo ex. Sint, velit.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi qui repudiandae ex, beatae quaerat aliquid rem necessitatibus at doloremque dolores, illum esse. Dolores, molestias itaque vitae quo ex. Sint, velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quibusdam officia maiores voluptas commodi nihil, quo veniam.</p>
+            <div class="button-section">
+              <a href="#" class="watch-btn-mobile btn btn-primary btn-lg btn-block" type="submit">подробнее</a>
+           </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Блок о TV -->
+
+       <section class="tv container-fluid" id="part-tv">
+        <div class="tv-desktop-ver row hidden-xs hidden-sm">
+          <figure class="tv-img col-lg-7 col-md-7 col-sm-6">
+            <img id="tv-img-desktop" class="img-responsive" width="100%" src="img/part-tv.png" alt="tv-series">
+          </figure>
+          <article class="tv-description-desktop col-lg-5 col-md-5 col-sm-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi qui repudiandae ex, beatae quaerat aliquid rem necessitatibus at doloremque dolores, illum esse. Dolores, molestias itaque vitae quo ex. Sint, velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, officiis, nostrum est hic suscipit facere ut, reiciendis sed eaque vel dolorum debitis earum recusandae. At nobis reiciendis nulla adipisci voluptates.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi qui repudiandae ex, beatae quaerat aliquid rem necessitatibus at doloremque dolores, illum esse. Dolores, molestias itaque vitae quo ex. Sint, velit.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi qui repudiandae ex, beatae quaerat aliquid rem necessitatibus at doloremque dolores, illum esse. Dolores, molestias itaque vitae quo ex. Sint, velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quibusdam officia maiores voluptas commodi nihil, quo veniam.</p>
+            <div class="button-section">
+              <a href="#" class="tv-btn-desktop btn btn-primary btn-lg" type="submit">подробнее</a>
+           </div>
+          </article>
+        </div>
+        <div class="tv-mobile-ver visible-xs visible-sm">
+          <img id="tv-mobile-part" src="img/part-tv.png" width="70%" alt="tv-series">
+          <article class="tv-description-mobile">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi qui repudiandae ex, beatae quaerat aliquid rem necessitatibus at doloremque dolores, illum esse. Dolores, molestias itaque vitae quo ex. Sint, velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, officiis, nostrum est hic suscipit facere ut, reiciendis sed eaque vel dolorum debitis earum recusandae. At nobis reiciendis nulla adipisci voluptates.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi qui repudiandae ex, beatae quaerat aliquid rem necessitatibus at doloremque dolores, illum esse. Dolores, molestias itaque vitae quo ex. Sint, velit.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi qui repudiandae ex, beatae quaerat aliquid rem necessitatibus at doloremque dolores, illum esse. Dolores, molestias itaque vitae quo ex. Sint, velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quibusdam officia maiores voluptas commodi nihil, quo veniam.</p>
+            <div class="button-section">
+              <a href="#" class="tv-btn-mobile btn btn-primary btn-lg btn-block" type="submit">подробнее</a>
+           </div>
+          </article>
         </div>
       </section>
     </main>
+
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
     <script type="text/javascript">
         function Anchor(active){
@@ -270,13 +244,14 @@
             }
             function AnchorHref(){
                 var anchor=$(this);
+                    offset = 50;
                 if(hash){
                     $(".menu a").removeClass("active");
                     anchor.addClass("active");
                 }
                 $("html, body").animate({
-                    scrollTop: $(anchor.attr("href")).offset().top
-                }, 1500);
+                    scrollTop: $(anchor.attr("href")).offset().top - offset
+                }, 1000);
             }
             $("a[href*=#]").click(AnchorHref);
         }
