@@ -1,9 +1,57 @@
-.menu {
+/* Блок навигации */
+ .menu {
 	float: right;
 }
 .logo {
 	margin-left: 10px;
 }
+.navbar-brand {
+	margin-left: 15px;
+}
+.navbar-toggle {
+	margin-right: 25px;
+}
+.catalog-nav {
+	background-color: #43B1E6;
+	border-color: #43B1E6;
+	margin-top: 50px;
+}
+.catalog-nav .navbar-nav > li > a {
+    color: #ffffff;
+    font-weight: 400;
+}
+.catalog-nav .navbar-nav > li > a:hover {
+    color: #000000;
+    font-weight: 500;
+}
+.cat-nav {
+	float: left;
+}
+.cat-nav ul {
+	margin-left: -30px;
+}
+.cat-nav-mobile .navbar-nav {
+	float: left;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #ffffff;
+    background-color: #43B1E6;
+ }
+ .cat-nav-mobile .navbar-nav .dropdown .dropdown-menu > li > a {
+    color: #ffffff;
+    font-weight: 400;
+ }
+ .cat-nav-mobile .navbar-nav .dropdown .dropdown-menu > li > a:hover {
+    color: #000000;
+    font-weight: 500;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #262626;
+  text-decoration: none;
+  background-color: #43B1E6;
+}
+
 /* Блок слайдера */
 .carousel-caption {
 	background:rgba(255,255,255,0.6);
@@ -217,4 +265,4 @@
  .mobile-button-tv {
  	margin-top: 50px;
  }
- 
+ /* Mac.html */
