@@ -10,11 +10,13 @@
 }
 .navbar-toggle {
 	margin-right: 25px;
+	z-index: 11;
 }
 .catalog-nav {
 	background-color: #43B1E6;
 	border-color: #43B1E6;
 	margin-top: 50px;
+	z-index: 10;
 }
 .catalog-nav .navbar-nav > li > a {
     color: #ffffff;
@@ -266,3 +268,112 @@
  	margin-top: 50px;
  }
  /* Mac.html */
+
+ /* Блок macbook */
+
+.macbook {
+ 	margin-top: 140px;
+}
+.about-macbook {
+	margin-top: 100px;
+	text-align: justify;
+}
+.description-macbook .about-macbook-m {
+	margin-top: 100px;
+	text-align: justify;
+}
+.about-macbook-t {
+	margin-top: 0px;
+}
+.btn-macbook {
+	float: right;
+	background-color: #43B1E6; 
+}
+.btn-macbook-m {
+
+	margin-right: 30px;
+	float: right;
+	background-color: #43B1E6; 
+}
+/* Блок iMac */
+
+.imac {
+ 	margin-top: 140px;
+}
+.about-imac {
+	margin-top: -50px;
+	text-align: justify;
+}
+.description-imac .about-imac-m {
+	margin-top: -100px;
+	text-align: justify;
+}
+.about-imac-t {
+	margin-top: 0px;
+}
+.image-imac img {
+	margin-top: -120px;
+}
+.btn-imac {
+	float: right;
+	background-color: #43B1E6; 
+}
+.btn-imac-m {
+	margin-right: 30px;
+	float: right;
+	background-color: #43B1E6; 
+}
+/* Блок mac-mini */
+
+.mac-mini {
+ 	margin-top: 0px;
+}
+.about-mac-mini {
+	margin-top: 100px;
+	text-align: justify;
+}
+.description-mac-mini .about-mac-mini-m {
+	margin-top: 30px; 
+	text-align: justify;
+}
+.about-mac-mini-t {
+	margin-top: 70px;
+}
+.image-mac-mini img {
+	margin-top: 50px;
+	margin-left: 70px;
+}
+.btn-mac-mini {
+	float: right;
+	background-color: #43B1E6; 
+}
+.btn-mac-mini-m {
+	margin-right: 30px;
+	float: right;
+	background-color: #43B1E6; 
+}
+/* Блок Mac-pro */
+
+.mac-pro {
+ 	margin-top: 40px;
+}
+.about-mac-pro {
+	margin-top: 50px;
+	text-align: justify;
+}
+.description-mac-pro .about-mac-pro-m {
+	margin-top: 0px;
+	text-align: justify;
+}
+.about-mac-pro-t {
+	margin-top: 0px;
+}
+.btn-mac-pro {
+	float: right;
+	background-color: #43B1E6; 
+}
+.btn-mac-pro-m {
+	margin-right: 30px;
+	float: right;
+	background-color: #43B1E6; 
+}
