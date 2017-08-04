@@ -377,3 +377,297 @@
 	float: right;
 	background-color: #43B1E6; 
 }
+
+ /* iPhone.html */
+ /* Блок iPhone 7 */
+.iphone7 {
+ 	margin-top: 140px;
+}
+.about-iphone7 {
+	margin-top: 100px;
+	text-align: justify;
+}
+.description-iphone7 .about-iphone7-m {
+	margin-top: 220px;
+	text-align: justify;
+}
+.about-iphone7-t {
+	margin-top: 0px;
+}
+.btn-iphone7 {
+	float: right;
+	background-color: #43B1E6; 
+}
+.btn-iphone7-m {
+	margin-top: 30px;
+	margin-right: 30px;
+	float: right;
+	background-color: #43B1E6; 
+}
+/* Блок iPhone 6S */
+
+.iphone6s {
+ 	margin-top: 140px;
+}
+.about-iphone6s {
+	margin-top: -50px;
+	text-align: justify;
+}
+.description-iphone6s .about-iphone6s-m {
+	margin-top: -100px;
+	text-align: justify;
+}
+.about-iphone6s-t {
+	margin-top: 30px;
+}
+.image-iphone6s img {
+	margin-left: 90px;
+	margin-top: -120px;
+}
+.image-iphone6s-m img {
+	margin-left: 40px;
+}
+.btn-iphone6s {
+	float: right;
+	background-color: #43B1E6; 
+}
+.btn-iphone6s-m {
+	margin-top: 30px;
+	margin-right: 30px;
+	float: right;
+	background-color: #43B1E6; 
+}
+/* Блок iphone SE */
+
+.iphonese {
+ 	margin-top: 0px;
+}
+.about-iphonese {
+	margin-top: 100px;
+	text-align: justify;
+}
+.description-iphonese .about-iphonese-m {
+	margin-top: 30px; 
+	text-align: justify;
+}
+.about-iphonese-t {
+	margin-top: 70px;
+}
+.image-iphonese img {
+	margin-top: 50px;
+	margin-left: 150px;
+}
+.image-iphonese-m img {
+	margin-left: 70px;
+}
+
+.btn-iphonese {
+	float: right;
+	background-color: #43B1E6; 
+}
+.btn-iphonese-m {
+	margin-top: 30px;
+	margin-right: 30px;
+	float: right;
+	background-color: #43B1E6; 
+}
+/* Блок iPhone 6 */
+
+.iphone6 {
+ 	margin-top: 40px;
+}
+.about-iphone6 {
+	margin-top: 50px;
+	text-align: justify;
+}
+.description-iphone6 .about-iphone6-m {
+	margin-top: 0px;
+	text-align: justify;
+}
+.about-iphone6-t {
+	margin-top: 30px;
+}
+.image-iphone6 img {
+	margin-left: 150px;
+}
+.image-iphone6-m img {
+	margin-left: 60px;
+}
+
+.btn-iphone6 {
+	float: right;
+	background-color: #43B1E6; 
+}
+.btn-iphone6-m {
+	margin-top: 30px;
+	margin-right: 30px;
+	float: right;
+	background-color: #43B1E6; 
+}
+/* iPad html */
+ /* Блок iPad Pro 12.9 */
+.ipad-pro129 {
+ 	margin-top: 140px;
+}
+.about-ipad-pro129 {
+	margin-top: 100px;
+	text-align: justify;
+}
+.description-ipad-pro129 .about-ipad-pro129-m {
+	margin-top: 40px;
+	text-align: justify;
+}
+.about-ipad-pro129-t {
+	margin-top: 0px;
+}
+.image-ipad-pro129 img {
+	margin-left: 110px;
+}
+.btn-ipad-pro129 {
+	float: right;
+	background-color: #43B1E6; 
+}
+.btn-ipad-pro129-m {
+	margin-top: 30px;
+	margin-right: 30px;
+	float: right;
+	background-color: #43B1E6; 
+}
+/* Блок iPad Pro 10.5 */
+
+.ipad-pro105 {
+ 	margin-top: 140px;
+}
+.about-ipad-pro105 {
+	margin-top: -50px;
+	text-align: justify;
+}
+.description-ipad-pro105 .about-ipad-pro105-m {
+	margin-top: -100px;
+	text-align: justify;
+}
+.about-ipad-pro105-t {
+	margin-top: 30px;
+}
+.image-ipad-pro105 img {
+	margin-left: 90px;
+	margin-top: -120px;
+}
+.image-ipad-pro105-m img {
+	margin-left: 40px;
+}
+.btn-ipad-pro105 {
+	float: right;
+	background-color: #43B1E6; 
+}
+.btn-ipad-pro105-m {
+	margin-top: 30px;
+	margin-right: 30px;
+	float: right;
+	background-color: #43B1E6; 
+}
+/* Watch html */
+ /* Блок Apple Watch Series 1 */
+.watch-series1 {
+ 	margin-top: 140px;
+}
+.about-watch-series1 {
+	margin-top: 100px;
+	text-align: justify;
+}
+.description-watch-series1 .about-watch-series1-m {
+	margin-top: 40px;
+	text-align: justify;
+}
+.about-watch-series1-t {
+	margin-top: 0px;
+}
+.image-watch-series1 img {
+	margin-left: 110px;
+}
+.image-watch-series1-m img {
+	margin-left: 40px;
+}
+.btn-watch-series1 {
+	float: right;
+	background-color: #43B1E6; 
+}
+.btn-watch-series1-m {
+	margin-top: 30px;
+	margin-right: 30px;
+	float: right;
+	background-color: #43B1E6; 
+}
+/* Блок Apple Watch Series 2 */
+
+.watch-series2 {
+ 	margin-top: 140px;
+}
+.about-watch-series2 {
+	margin-top: -50px;
+	text-align: justify;
+}
+.description-watch-series2 .about-watch-series2-m {
+	margin-top: -100px;
+	text-align: justify;
+}
+.about-watch-series2-t {
+	margin-top: 30px;
+}
+.image-watch-series2 img {
+	margin-left: 90px;
+	margin-top: -120px;
+}
+.image-watch-series2-m img {
+	margin-left: 20px;
+}
+.btn-watch-series2 {
+	float: right;
+	background-color: #43B1E6; 
+}
+.btn-watch-series2-m {
+	margin-top: 30px;
+	margin-right: 30px;
+	float: right;
+	background-color: #43B1E6; 
+}
+/* TV html */
+ /* Блок Apple Watch Series 1 */
+.atv {
+	margin: 0;
+	padding: 0;
+}
+.image-tv {
+	margin-top: 100px;
+}
+.container-tv-d {
+	color: #ffffff;
+	text-align: justify;
+	position: absolute;
+	top: 120px;
+	z-index: 1;
+}
+.container-tv-t {
+	color: #ffffff;
+	text-align: justify;
+	position: absolute;
+	top: 110px;
+	z-index: 1;
+}
+.container-tv-m {
+	margin-top: 30px;
+	color: black;
+	text-align: justify;
+}
+.btn-tv {
+	float: left;
+	background-color: #43B1E6; 
+	z-index: 1;
+}
+.btn-tv-m {
+	margin-top: 30px;
+	margin-right: 30px;
+	float: right;
+	background-color: #43B1E6; 
+	z-index: 1;
+}
