@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-15T13:20:43.293Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="q_ynxcH4gfLYvQUmSlHN" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-16T07:52:43.495Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="twhP8p92qDlVzkM6Ij8q" version="19.0.3" type="github">
   <diagram id="MpzwZItdDH28YRpMNwo7" name="Page-1">
-    <mxGraphModel dx="3372" dy="1648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4220" dy="2197" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -193,7 +193,7 @@
         <mxCell id="Yx7vUaC2JbqKzvTofEPy-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yx7vUaC2JbqKzvTofEPy-28" target="Yx7vUaC2JbqKzvTofEPy-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Yx7vUaC2JbqKzvTofEPy-28" value="Команда &quot;Эквайринг&quot;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;PO - Павел Борисов&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TL -&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;URL -&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(82, 173, 247); font-family: &amp;quot;Helvetica Neue&amp;quot;; font-size: 13px; background-color: initial;&quot;&gt;http://gitlab.dev.gazprombank.ru/gpbu20699/gibdd-payments&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="Yx7vUaC2JbqKzvTofEPy-28" value="Команда &quot;Эквайринг&quot;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;PO - Денис Ворович&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TL -&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;URL -&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(82, 173, 247); font-family: &amp;quot;Helvetica Neue&amp;quot;; font-size: 13px; background-color: initial;&quot;&gt;http://gitlab.dev.gazprombank.ru/gpbu20699/gibdd-payments&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="120" y="1540" width="350" height="110" as="geometry" />
         </mxCell>
         <mxCell id="Yx7vUaC2JbqKzvTofEPy-29" value="Команда&lt;br&gt;&lt;br&gt;Никита Кренев&lt;br&gt;-&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
